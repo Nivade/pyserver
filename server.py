@@ -10,6 +10,7 @@ if sys.argv[1:]:
     port = int(sys.argv[1])
 else:
     port = 8000
+	
 server_adress = ('127.0.0.1', port)
 
 HandlerClass.protocol_version = Protocol
